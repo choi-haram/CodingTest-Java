@@ -7,17 +7,14 @@ public class Main{
         int M = Sc.nextInt();
         int runningTime = Sc.nextInt();
         int afterM = M+runningTime;
-        
-        if(afterM>59) {
-	        for(int i=0; afterM>59; ) {
-	        	if(H>22) {
-	        		H = 0;
-	        	} else {
-	        		H = H+1;
-	        	}
-	        	afterM = afterM-60;
+	    for(int i=0; afterM>59; ) {
+	    	if(H>22) {
+	    		H = 0;
+	    	} else {
+	    		H = H+1;
 	        }
-        } 
+	        	afterM = afterM-60;
+	    } 
         System.out.println(H+" "+afterM);
     }
 }
