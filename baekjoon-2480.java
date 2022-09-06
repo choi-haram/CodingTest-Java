@@ -12,7 +12,7 @@ public class Main{
         	result = 10000+(dice1*1000);
         } else if(dice1==dice2 || dice1==dice3) { 
         	result = 1000+(dice1*100);
-        } else if(dice2==dice3) { // 1 1 2 
+        } else if(dice2==dice3) {
         	result = 1000+(dice2*100);
         } else { // 2 3 4
         	if(dice1>dice2) {
