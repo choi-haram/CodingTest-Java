@@ -14,7 +14,7 @@ public class Main{
         	result = 1000+(dice1*100);
         } else if(dice2==dice3) {
         	result = 1000+(dice2*100);
-        } else { // 2 3 4
+        } else {
         	if(dice1>dice2) {
         		if(dice1>dice3) {
         			result = dice1*100;
