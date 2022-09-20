@@ -19,3 +19,7 @@ public class Main{
         bw.flush();
 	}
 }
+/* 
+소요 시간
+시간초과 문제를 해결하기 위해 오래걸림
+*/
