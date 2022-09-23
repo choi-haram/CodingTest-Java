@@ -6,11 +6,11 @@ public class Main{
         Scanner Sc = new Scanner(System.in);
         
         int repeat = Sc.nextInt();
-        for(int i=1; i<=repeat; i++){
+        for(int caseNum=1; caseNum<=repeat; i++){
             int left = Sc.nextInt();
             int right = Sc.nextInt();
             int sum = left+right;
-            System.out.println("Case #"+i+": "+sum);
+            System.out.println("Case #"+caseNum+": "+sum);
         }
     }
 }
