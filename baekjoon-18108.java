@@ -1,5 +1,4 @@
 // baekjoon-18108.java
-// https://www.acmicpc.net/problem/18108
 import java.util.Scanner;
 
 public class Main{
