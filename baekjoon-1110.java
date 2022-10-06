@@ -19,3 +19,5 @@ public class Main{
     	System.out.println(i);
     }
 }
+
+// 더 고민해서 풀기
