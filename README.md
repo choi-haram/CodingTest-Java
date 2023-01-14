@@ -1,1 +1,1 @@
-## coding test(업로드 일시중단)
+## coding test(업로드 중단)
