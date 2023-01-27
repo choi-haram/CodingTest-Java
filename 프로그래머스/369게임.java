@@ -1,0 +1,18 @@
+/* 문제 : 머쓱이는 친구들과 369게임을 하고 있습니다. 369게임은 1부터 숫자를 하나씩 대며 3, 6, 9가 들어가는 숫자는 숫자 대신 3, 6, 9의 개수만큼 박수를 치는 게임입니다. 
+머쓱이가 말해야하는 숫자 order가 매개변수로 주어질 때, 머쓱이가 쳐야할 박수 횟수를 return 하도록 solution 함수를 완성해보세요. */
+
+// order 매개변수를 받아 각 자리수가 3으로 나눴을 때 나머지가 0이면 answer 값을 +1 증가시키
+class Solution {
+    public int solution(int order) {
+        int answer = 0;
+        int tmp = 0;
+        while(order>0){
+            tmp = order%10;
+            if((tmp!=0)&&(tmp%3==0)){
+                answer++;
+            }
+            order /= 10;   
+        }
+        return answer;
+    }
+}
